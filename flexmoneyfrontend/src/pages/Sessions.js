@@ -74,9 +74,7 @@ const Sessions = () =>{
     }, [email]);
 
 
-    // if(enrollments.length!=0){
-    //     console.log(enrollments);
-    // }
+
     if(!sessionStorage.getItem('accessToken')) return <LoginToBook/>
     
     return (
